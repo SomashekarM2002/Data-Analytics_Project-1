@@ -1,0 +1,94 @@
+# Consumer360 - Git Ignore File
+# Ignore files that shouldn't be committed to version control
+
+# SQL Folder (excluded from GitHub)
+sql/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Output Files
+output/
+*.csv
+*.xlsx
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Power BI
+*.pbix
+*.pbit
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+
+# Credentials
+credentials.json
+secrets.py
+config_local.py
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Test Files
+test_*.py
+*_test.py
+tests/
+
+# Data Files (if large)
+# Uncomment if you don't want to commit raw data
+# data/
+# *.parquet

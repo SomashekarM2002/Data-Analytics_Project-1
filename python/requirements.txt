@@ -1,0 +1,31 @@
+# Consumer360: Python Dependencies
+# Week 2: Python Logic Core
+
+# Core Data Analysis
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Database Connectivity
+pyodbc>=4.0.35  # For SQL Server
+# sqlite3 is included in Python standard library
+
+# Market Basket Analysis
+mlxtend>=0.22.0
+
+# Customer Lifetime Value (Optional - for future enhancement)
+lifetimes>=0.11.3
+
+# Visualization (Optional - for local analysis)
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Utilities
+python-dateutil>=2.8.2
+openpyxl>=3.0.10  # For Excel export
+
+# Logging and Configuration
+pyyaml>=6.0  # If using YAML config files
+
+# Development Tools (Optional)
+jupyter>=1.0.0
+notebook>=6.5.0
